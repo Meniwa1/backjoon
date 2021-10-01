@@ -1,6 +1,10 @@
 n = int(input())
 star = '*'
 blank = ' '
-for i in range(1,n):
-    print(blank*(n-i)+(star+blank)*(i))
 
+for i in range(2*n-1):
+    print(blank*(i-1)+star*(2*n-i))
+
+n = int(input())
+star = '*'
+blank = ' '
